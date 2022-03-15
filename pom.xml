@@ -10,7 +10,7 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.cassol</groupId>
-	<artifactId>marketplaces</artifactId>
+	<artifactId>Portal</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>marketplaces</name>
 	<description>Projeto portal seller cassol</description>

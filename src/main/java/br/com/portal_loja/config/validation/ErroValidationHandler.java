@@ -32,6 +32,7 @@ public class ErroValidationHandler {
 			ErroFormDto erro = new ErroFormDto(e.getField(), msg);
 			dto.add(erro);
 		});
+		
 		return dto;
 	}
 

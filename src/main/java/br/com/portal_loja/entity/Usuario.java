@@ -13,7 +13,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-@Table(name = "usuario", schema = "adm" , uniqueConstraints = @UniqueConstraint(columnNames = "email"))
+@Table(name = "usuario", uniqueConstraints = @UniqueConstraint(columnNames = "email"))
 public class Usuario {
 
 	@Id
